@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/../../develop/leetcod_plugin/leetcode/editor/cn/[2029]石子游戏 IX.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/../../develop/leetcod_plugin/leetcode/editor/cn/doc/content/[2029]石子游戏 IX.md" />
+              <option name="frontendQuestionId" value="leetcode-cn.com2029" />
+              <option name="host" value="leetcode-cn.com" />
+              <option name="path" value="$PROJECT_DIR$/../../develop/leetcod_plugin/leetcode/editor/cn/[2029]石子游戏 IX.py" />
+              <option name="titleSlug" value="stone-game-ix" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

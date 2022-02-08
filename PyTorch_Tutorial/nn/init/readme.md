@@ -36,3 +36,19 @@ net[0].apply(xavier)
 对不同的层使用不同的初始化函数
 
 net[1].apply(init_normal)
+
+# weight修改
+
+* `m.weight.data *= m.weight.data.abs() >= 5`
+
+保留m的绝对值大于5的参数，其他的设为0
+
+* 直接修改
+
+所有值加1
+
+`net[0].weight.data[:] + 1`
+
+赋值
+
+`net[0].weight.data[0,0] = 42`

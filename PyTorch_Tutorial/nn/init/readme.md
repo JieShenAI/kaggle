@@ -31,5 +31,8 @@ def xavier(m):
     nn.init.xavier_uniform_(m.weight)
 
 net[0].apply(xavier)
-net[1].apply(init_normal)
 ```
+
+对不同的层使用不同的初始化函数
+
+net[1].apply(init_normal)

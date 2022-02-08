@@ -52,3 +52,13 @@ net[1].apply(init_normal)
 赋值
 
 `net[0].weight.data[0,0] = 42`
+
+
+# 网络间共享权重
+```python
+shared = nn.Linear(8,8)
+net = nn.Sequential(nn.Linear(4,8),nn.ReLU(),shared,nn.ReLU(),shared,nn.ReLU(),nn.Linear(8,1))
+net(x)
+```
+net[2] 与net[4]的参数应该是相等的,因为shared指向同一个内存地址
+

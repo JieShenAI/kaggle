@@ -21,3 +21,15 @@ net[0].weight.data[0],net[0].bias.data[0]
 把b初始化为0
 
 * nn.init.zeros_(m.bias)
+
+
+# xavier初始化
+
+```python
+def xavier(m):
+  if type(m) == nn.Linear:
+    nn.init.xavier_uniform_(m.weight)
+
+net[0].apply(xavier)
+net[1].apply(init_normal)
+```

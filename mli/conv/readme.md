@@ -1,3 +1,20 @@
+# conv
+
+## 输入
+
+1. batch
+2. in_channel
+
+卷积输出的第一个维度是batch size,第二个维度是channel;
+
+## conv参数
+1. in_channel
+2. out_channel
+3. kernel: (h,w)
+
+有一点值得注意：kernel参数的数组，第一个维度是out_channel;如果你不能理解，可以查看这张图![image](https://user-images.githubusercontent.com/49408146/153755642-6cadae17-9062-4957-887b-fbd549a9de45.png)
+
+
 # 卷积核
 
 卷积可以由全连接变形过来

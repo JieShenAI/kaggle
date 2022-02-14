@@ -1,0 +1,1 @@
+将net的device设置成gpu

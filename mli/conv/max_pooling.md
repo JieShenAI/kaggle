@@ -7,4 +7,5 @@
 * int
 表示长和宽一致
 * tuple
-(h,w)
+
+(h,w), 行padding是h，列的padding是w。
